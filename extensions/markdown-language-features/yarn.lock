@@ -54,10 +54,10 @@
   resolved "https://registry.yarnpkg.com/@types/vscode-webview/-/vscode-webview-1.57.0.tgz#bad5194d45ae8d03afc1c0f67f71ff5e7a243bbf"
   integrity sha512-x3Cb/SMa1IwRHfSvKaZDZOTh4cNoG505c3NjTqGlMC082m++x/ETUmtYniDsw6SSmYzZXO8KBNhYxR0+VqymqA==
 
-"@vscode/extension-telemetry@0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@vscode/extension-telemetry/-/extension-telemetry-0.4.6.tgz#2f4c5bf81adf6b2e4ddba54759355e1559c5476b"
-  integrity sha512-bDXwHoNXIR1Rc8xdphJ4B3rWdzAGm+FUPk4mJl6/oyZmfEX+QdlDLxnCwlv/vxHU1p11ThHSB8kRhsWZ1CzOqw==
+"@vscode/extension-telemetry@0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@vscode/extension-telemetry/-/extension-telemetry-0.4.8.tgz#bb67386ae7ba4d3505978243df91055d5e0cf950"
+  integrity sha512-5xtf8k7vQJ+EOqhAcEaGwbnj9t/qLjIJQePmq7eBKEZzt8vpnOg0ZJIJx6VnQFAwO3lfsf3M+X3NT+IpKRymZw==
 
 argparse@^2.0.1:
   version "2.0.1"
