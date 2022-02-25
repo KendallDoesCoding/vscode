@@ -39,10 +39,10 @@
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.0.0.tgz#165aae4819ad2174a17476dbe66feebd549556c0"
   integrity sha512-xSQfNcvOiE5f9dyd4Kzxbof1aTrLobL278pGLKOZI6esGfZ7ts9Ka16CzIN6Y8hFHE1C7jIBZokULhK1bOgjRw==
 
-"@vscode/extension-telemetry@0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@vscode/extension-telemetry/-/extension-telemetry-0.4.6.tgz#2f4c5bf81adf6b2e4ddba54759355e1559c5476b"
-  integrity sha512-bDXwHoNXIR1Rc8xdphJ4B3rWdzAGm+FUPk4mJl6/oyZmfEX+QdlDLxnCwlv/vxHU1p11ThHSB8kRhsWZ1CzOqw==
+"@vscode/extension-telemetry@0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@vscode/extension-telemetry/-/extension-telemetry-0.4.8.tgz#bb67386ae7ba4d3505978243df91055d5e0cf950"
+  integrity sha512-5xtf8k7vQJ+EOqhAcEaGwbnj9t/qLjIJQePmq7eBKEZzt8vpnOg0ZJIJx6VnQFAwO3lfsf3M+X3NT+IpKRymZw==
 
 asynckit@^0.4.0:
   version "0.4.0"
