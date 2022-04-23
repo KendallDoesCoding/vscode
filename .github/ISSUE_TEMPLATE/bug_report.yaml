@@ -13,14 +13,15 @@ body:
           🧪 Test using the latest Insiders build to see if your issue has already been fixed: https://code.visualstudio.com/insiders/
           💡 Instead of creating your report here, use 'Report Issue' from the 'Help' menu in VS Code to pre-fill useful information.
           🔧 Launch with `code --disable-extensions` to check.
-    - type: checkboxes
-    id: extensions-disabled
+  - type: checkboxes
+    id: no-issues-relating-to-this
     attributes:
-      label: Does this issue occur when all extensions are disabled?
+      label: Duplicate Issues
+      description: Check to make sure there are no existing posts about your problem in the 'issues' section.
       options:
-        - label: Yes
-        - label: No
-    validations:
+        - label: There are **no existing posts relating to my problem**
+        - label: There are **existing posts relating to my problem, but the solution given, doesn't work for me.**
+      validations:
       required: true
   - type: textarea
     id: what-happened
