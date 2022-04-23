@@ -36,7 +36,7 @@ body:
     id: version
     attributes:
       label: OS Version
- - type: textarea
+- type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
