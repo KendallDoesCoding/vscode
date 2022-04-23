@@ -28,15 +28,15 @@ body:
       value : |
       🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause.
       📣 Issues caused by an extension need to be reported directly to the extension publisher. The 'Help > Report Issue' dialog can assist with this.
-- type: input
+  - type: input
     id: version
     attributes:
       label: VS Code Version
-- type: input
+  - type: input
     id: version
     attributes:
       label: OS Version
-- type: textarea
+  - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
