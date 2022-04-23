@@ -23,7 +23,7 @@ body:
           required: true
         - label: There are **existing posts relating to my problem, but the solution given, doesn't work for me.**
           required: false
-      - type: markdown
+  - type: markdown
       attributes:
       value : |
       🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause.
