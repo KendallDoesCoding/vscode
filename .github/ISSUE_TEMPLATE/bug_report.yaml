@@ -1,0 +1,49 @@
+name: Bug report
+description: File a bug report
+title: "[Bug]: (Enter short, one sentence summary of bug here)"
+labels: ["Bug / Error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+          ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️
+          Please read our Rules of Conduct: https://opensource.microsoft.com/codeofconduct/
+          🕮 Read our guide about submitting issues: https://github.com/microsoft/vscode/wiki/Submitting-Bugs-and-Suggestions
+          🔎 Search existing issues to avoid creating duplicates. -->
+          🧪 Test using the latest Insiders build to see if your issue has already been fixed: https://code.visualstudio.com/insiders/
+          💡 Instead of creating your report here, use 'Report Issue' from the 'Help' menu in VS Code to pre-fill useful information.
+          🔧 Launch with `code --disable-extensions` to check.
+    - type: checkboxes
+    id: extensions-disabled
+    attributes:
+      label: Does this issue occur when all extensions are disabled?
+      options:
+        - label: Yes
+        - label: No
+    validations:
+      required: true
+      - type: markdown
+      attributes:
+      value : |
+      🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause.
+      📣 Issues caused by an extension need to be reported directly to the extension publisher. The 'Help > Report Issue' dialog can assist with this.
+- type: input
+    id: version
+    attributes:
+      label: VS Code Version
+  - type: input
+    id: version
+    attributes:
+      label: OS Version
+    - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: This will allow me to figure out where the issue originates.
+      placeholder: Step 1, Step 2, Step 3...
+      value: |
+             1. 
+             2. 
+             3. 
+    validations:
+      required: true
