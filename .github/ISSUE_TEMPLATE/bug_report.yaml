@@ -1,4 +1,4 @@
-name: Bug report
+name: Bug Report
 description: File a bug report
 title: "[Bug]: (Enter short, one sentence summary of bug here)"
 labels: ["Bug / Error"]
