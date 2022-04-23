@@ -19,9 +19,9 @@ body:
       label: Does this issue occur when all extensions are disabled?
       options:
         - label: Yes
+        required: false
         - label: No
-    validations:
-      required: true
+        required: false
       - type: markdown
       attributes:
       value : |
