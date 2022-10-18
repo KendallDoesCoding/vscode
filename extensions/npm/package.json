@@ -300,10 +300,10 @@
           ]
         },
         "npm.scriptHover": {
-            "type": "boolean",
-            "description": "%config.npm.scriptHover%",
-            "default": true,
-            "scope": "window"
+          "type": "boolean",
+          "description": "%config.npm.scriptHover%",
+          "default": true,
+          "scope": "window"
         }
       }
     },
