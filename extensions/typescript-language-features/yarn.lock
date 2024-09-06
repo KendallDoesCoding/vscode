@@ -56,18 +56,6 @@
     "@microsoft/1ds-core-js" "^3.2.3"
     "@microsoft/1ds-post-js" "^3.2.3"
 
-axios@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
-  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
-  dependencies:
-    follow-redirects "^1.14.8"
-
-follow-redirects@^1.14.8:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
-  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
-
 jsonc-parser@^2.2.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.3.1.tgz#59549150b133f2efacca48fe9ce1ec0659af2342"
@@ -78,19 +66,17 @@ semver@5.5.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
   integrity sha512-PqpAxfrEhlSUWge8dwIp4tZnQ25DIOthpiaHNIthsjEFQD6EvqUKUDM7L8O2rShkFccYo1VjJR0coWfNkCubRw==
 
-tas-client@0.1.58:
-  version "0.1.58"
-  resolved "https://registry.yarnpkg.com/tas-client/-/tas-client-0.1.58.tgz#67d66bf0e27df5276ebc751105e6ad47791c36d8"
-  integrity sha512-fOWii4wQXuo9Zl0oXgvjBzZWzKc5MmUR6XQWX93WU2c1SaP1plPo/zvXP8kpbZ9fvegFOHdapszYqMTRq/SRtg==
-  dependencies:
-    axios "^0.26.1"
+tas-client@0.2.33:
+  version "0.2.33"
+  resolved "https://registry.yarnpkg.com/tas-client/-/tas-client-0.2.33.tgz#451bf114a8a64748030ce4068ab7d079958402e6"
+  integrity sha512-V+uqV66BOQnWxvI6HjDnE4VkInmYZUQ4dgB7gzaDyFyFSK1i1nF/j7DpS9UbQAgV9NaF1XpcyuavnM1qOeiEIg==
 
-vscode-tas-client@^0.1.63:
-  version "0.1.63"
-  resolved "https://registry.yarnpkg.com/vscode-tas-client/-/vscode-tas-client-0.1.63.tgz#df89e67e9bf7ecb46471a0fb8a4a522d2aafad65"
-  integrity sha512-TY5TPyibzi6rNmuUB7eRVqpzLzNfQYrrIl/0/F8ukrrbzOrKVvS31hM3urE+tbaVrnT+TMYXL16GhX57vEowhA==
+vscode-tas-client@^0.1.84:
+  version "0.1.84"
+  resolved "https://registry.yarnpkg.com/vscode-tas-client/-/vscode-tas-client-0.1.84.tgz#906bdcfd8c9e1dc04321d6bc0335184f9119968e"
+  integrity sha512-rUTrUopV+70hvx1hW5ebdw1nd6djxubkLvVxjGdyD/r5v/wcVF41LIfiAtbm5qLZDtQdsMH1IaCuDoluoIa88w==
   dependencies:
-    tas-client "0.1.58"
+    tas-client "0.2.33"
 
 vscode-uri@^3.0.3:
   version "3.0.3"
